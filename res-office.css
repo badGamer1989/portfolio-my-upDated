@@ -1,0 +1,157 @@
+/* -------------------------Styling for to make website responsive-------------------------- */
+
+@media (max-width: 500px) {
+     .side-bar{
+        display: none;
+    }  
+
+}
+    /* .side-bar .top-section img{
+        width: 50px;
+        height: 50px;
+    }
+    .side-bar .top-section p{
+        font-size: 10px;
+        padding: 5px;
+    } */
+    /* .side-bar .top-section p span{
+        font-size: 10px;
+    }
+
+    .side-bar .bottom-section{
+        align-items: left;
+        padding: 5px;
+    }
+    .side-bar .bottom-section .menu-item a{
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+    .side-bar .bottom-section .menu-item a p{
+        display: none;
+    }
+    .side-bar .end-section .menu-item a{
+        font-size: 12px;
+    } */
+/* } */
+
+
+
+
+
+
+
+
+
+@media (min-width: 1280px) {
+    .right-side{
+        width: 86.5%;
+    }    
+}
+
+@media (max-width: 1250px) {
+    body{
+        height: 150vh;
+    }
+    .right-side .top-header{
+        width: 90%;
+        /* padding: 15px; */
+    }
+    .right-side .first-section{ 
+        margin-right: 10%;               
+    }
+    .right-side .first-section .one,
+    .right-side .first-section .two,
+    .right-side .first-section .three,
+    .right-side .first-section .four,
+    .right-side .first-section .five{
+        padding-top: 10px;
+        height: 70px;
+    }
+    .right-side .first-section .one p,
+    .right-side .first-section .two p,
+    .right-side .first-section .three p,
+    .right-side .first-section .four p,
+    .right-side .first-section .five p{
+        font-size: 10px;
+        margin-bottom: 1px;
+    }
+    .right-side .first-section .one i,
+    .right-side .first-section .two i,
+    .right-side .first-section .three i,
+    .right-side .first-section .four i,
+    .right-side .first-section .five i{
+        font-size: 10px;
+        font-weight: bold;
+        margin-right: 1px;
+    }
+    .right-side .first-section .one span,
+    .right-side .first-section .two span,
+    .right-side .first-section .three span,
+    .right-side .first-section .four span,
+    .right-side .first-section .five span{
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    /* ---------------Responsive Styling for table section ------------------------------------  */
+
+    .table-section{
+        width: 70%;
+        height: 55vh;
+        padding: 0 20px;
+    }
+    .table-section table{
+        margin: 10px auto;
+    }  
+      th{
+        border-radius: 5px;
+        font-size: 10px;
+      }
+      td{
+        font-size: 9px;
+        padding: 3px;
+      }
+      .table-section table tr td img{
+        width: 20px;
+        height: 20px;
+      }
+      .table-section table tr td .btn-pen{
+        padding: 3px 15px;
+      }
+      .table-section table tr td .btn-pen i{
+        font-size: 8px;
+      }
+      .table-section table tr td .btn-trash{
+        padding: 3px 15px;
+      }
+      .table-section table tr td .btn-trash i{
+        font-size: 8px;
+      }
+}
+
+@media (max-width: 1290px) {
+    .right-side{
+        width: 80%;
+    }
+}
+@media (max-width: 1260px) {
+    .right-side{
+        width: 80%;
+    }
+}
+@media (max-width: 960px) {
+    .right-side{
+        width: 75%;
+    }  
+}
+@media (max-width: 830px) {
+    .right-side{
+        width: 75%;
+    }  
+}
+@media (max-width: 810px) {
+    .right-side{
+        width: 70%;
+    }  
+} 

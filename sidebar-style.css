@@ -1,0 +1,146 @@
+
+.side-bar{
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 0 10px 10px 0;
+    transition: 0.6 ease;
+    background: rgba(255, 255, 255, 0.2);
+}
+.side-bar .top-section{
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+}
+.side-bar .top-section img{
+    width: 110px;
+    height: 90px;
+    margin-bottom: 15px;
+    border-radius: 50px;
+}
+.side-bar .top-section p{
+    font-size: 16px;
+    padding: 10px;
+    text-transform: capitalize;
+    box-shadow: 0 4px 2px -2px gray; /* shadow will only appear only on bottom side.....*/
+    color: #fff;    
+    font-family: cursive;
+    }
+.side-bar .top-section p span{
+    font-size: 13px;
+    font-weight: 200;
+    font-family: monospace;
+}
+.side-bar .bottom-section{
+    align-items: center;
+    padding: 5px 10px 10px 10px;
+    /* border: 1px solid red;   */
+}
+.side-bar .bottom-section .menu-item{       
+    cursor: pointer;
+}
+.side-bar .bottom-section .menu-item:nth-last-child(1){
+    box-shadow: 0 4px 2px -2px gray;    
+} 
+.side-bar .bottom-section .menu-item a{
+    font-size: 15px;
+    padding: 10px 25px;
+    display: block;
+    color: white;
+    font-weight: 300;    
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.side-bar .bottom-section .menu-item > a:hover{
+    margin-left: 6px;
+    opacity: 0.8;    
+}
+.side-bar .bottom-section .menu-item i{
+    padding-right: 15px;
+}
+.side-bar .bottom-section .menu-item .sub-menu{
+    width: 110px;
+    position: absolute;
+    top: 31%;
+    left: 102%;
+    background: #fff;
+    border-radius: 8px 0px 8px 0px;
+    padding: 5px 6px;
+    box-shadow: 8px 8px 9px #000;
+    background: rgba(255, 255, 255, 0.3);
+    display: none;  
+}
+.side-bar .bottom-section .menu-item .sub-menu a{
+    font-weight: bold;
+    font-size: 12px;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 3px 0px;
+    transition: 0.3s ease;
+    border-left: 1px solid #000;
+    border-radius: 0px;
+    margin-bottom: 2px;   
+}
+.side-bar .bottom-section .menu-item .sub-menu a:hover{
+    margin-left: 10px;
+}
+.side-bar .bottom-section .menu-item .sub-menu-2{
+    width: 110px;
+    position: absolute;
+    top: 49%;
+    left: 102%;
+    background: #fff;
+    padding: 5px 6px;
+    box-shadow: 8px 8px 9px #000;
+    border-radius: 8px 0px 8px 0px;
+    background: rgba(255, 255, 255, 0.3);   
+    display: none;    
+}
+.side-bar .bottom-section .menu-item .sub-menu-2 a{
+    font-weight: bold;
+    font-size: 12px;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 3px 0px;
+    transition: 0.3s ease;
+    border-left: 1px solid #000;
+    border-radius: 0px;
+    margin-bottom: 2px;  
+}
+.side-bar .bottom-section .menu-item .sub-menu-2 a:hover{
+    margin-left: 9px;
+}
+
+.side-bar .end-section .menu-item{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    padding: 6px 0;
+    justify-content: center;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+.side-bar .end-section .menu-item a{
+    font-size: 15px;
+    color: white;
+    font-weight: 300;    
+    text-decoration: none;    
+    padding: 2px 12px;
+    box-shadow: 0 4px 2px -2px gray;
+    transition: 0.5s ease;   
+}
+.side-bar .end-section .menu-item i{
+    margin-right: 5px;
+}
+.side-bar .end-section .menu-item a:hover{
+    padding-bottom: 5px;
+    font-weight: bolder;
+    font-size: 16px;
+    color: #000;
+}

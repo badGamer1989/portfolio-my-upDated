@@ -1,0 +1,90 @@
+/* -------------------------Styling for to make website responsive-------------------------- */
+
+@media (max-width: 460px) {
+    .side-bar{
+        /* display: none; */
+        width: 100px;
+        /* font-size: 8px; */
+        overflow: hidden;
+    }  
+    .side-bar .top-section img{
+        width: 50px;
+        height: 50px;
+    }
+    .side-bar .top-section p{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .side-bar .top-section p span{
+        font-size: 10px;
+    }
+
+    .side-bar .bottom-section{
+        align-items: left;
+        padding: 5px;
+    }
+    .side-bar .bottom-section .menu-item a{
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+    .side-bar .bottom-section .menu-item a p{
+        display: none;
+    }
+    .side-bar .end-section .menu-item a{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1520px) {
+    .right-side{
+        width: 86.5%;
+    }    
+}
+@media (max-width: 1430px) {
+    body{
+        height: 150vh;
+    }
+    .right-side{
+        width: 85%;
+        height: auto;
+    }
+    .right-side .top-header{
+        width: 80%;
+        padding: 15px;
+    }
+    .right-side .first-section{
+        display: block;        
+    }
+    .right-side .first-section .one,
+    .right-side .first-section .two,
+    .right-side .first-section .three,
+    .right-side .first-section .four,
+    .right-side .first-section .five{
+        width: 40%;
+        margin-left: 25%;   
+        margin-bottom: 10px;
+    }
+    .table-section{
+        overflow-y: scroll;
+    }
+}
+@media (max-width: 1260px) {
+    .right-side{
+        width: 80%;
+    }
+}
+@media (max-width: 960px) {
+    .right-side{
+        width: 75%;
+    }  
+}
+@media (max-width: 830px) {
+    .right-side{
+        width: 75%;
+    }  
+}
+@media (max-width: 810px) {
+    .right-side{
+        width: 70%;
+    }  
+}
